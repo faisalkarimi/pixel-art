@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Color Picker React App
+
+
+https://user-images.githubusercontent.com/57026007/174924766-c80cd89a-ca44-47d7-9a0a-76dfdc042baf.mov
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
