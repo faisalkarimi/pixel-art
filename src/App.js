@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import ColorMenu from './components/ColorMenu';
+import PixelGrid from './components/PixelGrid';
+import { ColorPickerProvider } from './context/GlobalState';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ColorPickerProvider>
+      <div className='container'>
+        <ColorMenu />
+        <PixelGrid />
+      </div>
+    </ColorPickerProvider>
   );
 }
 
